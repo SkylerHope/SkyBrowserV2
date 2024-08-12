@@ -4,38 +4,32 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tauri App</title>
+    <title>SkyBrowser</title>
     <script type="module" src="/main.js" defer></script>
   </head>
 
   <body>
     <div class="container">
-      <h1>Welcome to Tauri!</h1>
-
       <div class="row">
-        <a href="https://tauri.app" target="_blank">
-          <img src="/assets/tauri.svg" class="logo tauri" alt="Tauri logo" />
-        </a>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-        >
-          <img
-            src="/assets/javascript.svg"
-            class="logo vanilla"
-            alt="JavaScript logo"
-          />
-        </a>
+          <!--<img src="/assets/skybrowser.svg" class="logo tauri" alt="Tauri logo" />-->
+          <img src="/assets/icon.png" class="logo tauri" alt="SkyBrowser Logo"/>
       </div>
 
-      <p>Click on the Tauri logo to learn more about the framework</p>
+      <h2>Search the web with SkyBrowser!</h2>
 
-      <form class="row" id="greet-form">
-        <input id="greet-input" placeholder="Enter a name..." />
-        <button type="submit">Greet</button>
+      <form class="row" id="search-form">
+        <input id="search-bar" placeholder="funny cat videos" />
+        <button type="submit">Search</button>
       </form>
 
-      <p id="greet-msg"></p>
     </div>
+    
+    <br/>
+    <br/>
+    <div align="center">
+      <a href="https://github.com/SkylerHope/SkyBrowserV2">Github Repository</a>
+      <a href="https://github.com/SkylerHope/SkyBrowserV2/issues/new">Report a bug</a>
+    </div>
+
   </body>
 </html>
