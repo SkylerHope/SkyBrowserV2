@@ -1,7 +1,7 @@
-# Tauri + Vanilla
+<div align="center">
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
+<img src="./src-tauri/icons/logo.png" alt="AppLogo" width="80" height="80">
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+# SkyBrowser
+A minimal and lightweight web browser with basic adblocking now built with Tauri
+</div>
