@@ -17,7 +17,7 @@ install_plugins() {
       sudo zypper install -y gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-libav
       ;;
     "pacman")
-      sudo pacman -Syu --noconfirm gst-plugins-bad gst-plugins-ugly gst-libav
+      sudo pacman -S --noconfirm gst-plugins-bad gst-plugins-ugly gst-libav
       ;;
     *)
       echo "Unsupported or unknown package manager: $1"
