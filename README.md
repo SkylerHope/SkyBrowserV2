@@ -9,7 +9,10 @@ This is an attempt to rebuild my <a href="https://github.com/SkylerHope/SkyBrows
 </div>
 
 ## Installing GStreamer plugins
-### GStreamer plugins are needed for video playback, just copy and paste the command below to your terminal:
+### GStreamer plugins are needed for video playback, just copy and paste the commands below to your terminal:
 ```
-curl -o install_plugins.sh https://github.com/SkylerHope/SkyBrowserV2/blob/main/install_plugins.sh && chmod +x install_plugins.sh && ./install_plugins.sh
+curl -o install_plugins.sh https://github.com/SkylerHope/SkyBrowserV2/blob/main/install_plugins.sh
+```
+```
+chmod +x install_plugins.sh && ./install_plugins.sh
 ```
