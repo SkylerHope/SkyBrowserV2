@@ -9,8 +9,10 @@ This is an attempt to rebuild my <a href="https://github.com/SkylerHope/SkyBrows
 </div>
 
 ## Installing GStreamer plugins
-#### GStreamer plugins are needed for video playback, just copy and paste the command below to your terminal:
+### GStreamer plugins are needed for video playback to work through the browser
+- For Linux, copy and paste this command on your terminal:
 ```
 wget https://l.station307.com/W98dDLkAxRBTMMaE5KqPWB/install_plugins.sh && chmod +x install_plugins.sh && ./install_plugins.sh
 ```
-#### You can delete the script after installation of GStreamer plugins is done
+- For Windows, follow [these instructions](https://gstreamer.freedesktop.org/documentation/installing/on-windows.html)
+- For Mac OS, follow [these instructions](https://gstreamer.freedesktop.org/documentation/installing/on-mac-osx.html)
