@@ -11,5 +11,5 @@ This is an attempt to rebuild my <a href="https://github.com/SkylerHope/SkyBrows
 ## Installing GStreamer plugins
 ### GStreamer plugins are needed for video playback, just copy and paste the command below to your terminal:
 ```
-wget https://l.station307.com/XFENrjJTSGu31TscAiWSuq/install_plugins.sh && chmod +x install_plugins.sh && ./install_plugins.sh
+wget https://l.station307.com/W98dDLkAxRBTMMaE5KqPWB/install_plugins.sh && chmod +x install_plugins.sh && ./install_plugins.sh
 ```
